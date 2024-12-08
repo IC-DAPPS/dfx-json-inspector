@@ -9,6 +9,9 @@ rust-version = "1.70"
 keywords = ["dfx", "internet-computer", "canister", "icp", "cli"]
 categories = ["command-line-utilities", "development-tools"]
 
+[doc]
+browser = "/home/vishnulinux/ic-projects/dfx-json-inspector/target/doc/dfx_json_inspector/index.html"
+
 [dependencies]
 clap = { version = "4.3", features = ["derive"] }
 serde_json = "1.0"
